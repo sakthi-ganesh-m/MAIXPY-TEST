@@ -4,7 +4,7 @@ from Maix import FFT
 from fpioa_manager import fm
 import image
 import lcd
-import
+
 lcd.init()
 fm.register(8,  fm.fpioa.GPIO0)
 wifi_en=GPIO(GPIO.GPIO0,GPIO.OUT)
